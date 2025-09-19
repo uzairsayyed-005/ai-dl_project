@@ -1,0 +1,18 @@
+openai-whisper
+# Pin moviepy to 1.0.3 because 2.x layout change breaks `from moviepy.editor import VideoFileClip` usage here.
+moviepy==1.0.3
+# Pin numpy to stay <2.3 (numba 0.61.x requires numpy <2.3). 2.2.6 is latest compatible.
+numpy==2.2.6
+
+pyAudioAnalysis==0.3.14
+matplotlib>=3.4.2
+simplejson>=3.16.0
+scipy>=1.6.3
+hmmlearn>=0.2.5
+eyeD3>=0.9.6
+pydub>=0.25.1
+scikit_learn>=0.24.2
+tqdm>=4.52.0
+plotly>=5.3.1
+pandas>=1.2.4
+imblearn
